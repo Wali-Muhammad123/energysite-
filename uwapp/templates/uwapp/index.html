@@ -1,0 +1,1293 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Switch Gas Electric Today Get £200 Off</title>
+    <meta name="description" content="Switch Gas Electric today to save £200 on your bill, switching your gas, electric, broadband, insurance and mobile. The more you switch the more you save.">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-gH2yIJqKdNHPEq0n4Mqa/HGKIhSkIHeL5AyhkYV8i59U5AR6csBvApHHNl/vI1Bx" crossorigin="anonymous">
+    <link rel="stylesheet" href="/static/css/style.css">
+    <link rel="stylesheet" href="/static/css/media-query.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+    <script src="https://code.jquery.com/jquery-3.4.1.min.js" integrity="sha256-CSXorXvZcTkaix6Yvo6HppcZGetbYMGWSFlBw8HfCJo=" crossorigin="anonymous"></script>
+ 
+ 
+    <meta name=”twitter:url” content="https://switch-gas-electric.co.uk/" />
+    <meta property="og:url" content="https://switch-gas-electric.co.uk/" />
+    <meta property="og:title" content="Switch Energy Suppliers Today and get up to £200 off today" />
+    <meta property="og:type" content="website" />
+    <meta property="og:description" content="As a new customer you could get up to £200 off your bill, save by switching you gas, electric or even your broadband,insurance and mobile. The more you switch, the more you save." />
+    <meta property="og:locale" content="en_GB" />
+    <meta name="twitter:card" content="summary" />
+    <meta name="twitter:title" content="Switch Energy Suppliers Today and get up to £200 off today" />
+    <meta name="twitter:description" content="As a new customer you could get up to £200 off your bill, save by switching you gas, electric or even your broadband,insurance and mobile. The more you switch, the more you save." />
+    <meta name="twitter:image" content="https://switch-gas-electric.co.uk/static/img/favicon.webp" />
+    <meta property="og:image" content="https://switch-gas-electric.co.uk/static/img/favicon.webp" />
+    <meta name="referrer" content="no-referrer-when-downgrade"> 
+ 
+ 
+  </head>
+  <body>
+  
+    <div id="spino">
+  
+  
+      <!-- ////////////////  Header section  /////////////////// -->
+      <section class="img-section" id="home">
+        <div class="header-img">
+          <nav class="navbar navbar-expand-lg fixed-top bg-color" id="navbar">
+            <div class="container">
+              <img src="/static/img/whitelogo.png" width="250px" alt="switch gas & electric">
+              <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false"
+                aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon" style="font-size: 15px;">
+                </span>
+              </button>
+              <div class="collapse ms-auto navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
+                  <li class="nav-item">
+                    <a class="nav-link fw-bold text-white" aria-current="page" href="#home">Home</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link fw-bold text-white" href="#save-energy-bills">Save Energy Bill</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link fw-bold text-white" href="#bundle-offer">Bundle Offer</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link fw-bold text-white" href="#why-uw">Why UW</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link fw-bold text-white" href="#other-services">Other Services</a>
+                  </li>
+                </ul>
+              </div>
+          </nav>
+          <div class="container">
+            {% for message in messages %}
+            <div class="alert alert-{{ message.tags }} alert-dismissible fade show mb-0 py-1" role="alert">
+              <strong class=""></strong> {{ message }}
+              <button type="button" class="btn-close py-1" data-bs-dismiss="alert" aria-label="Close"></button>
+            </div>
+            {% endfor %}
+          </div>
+          <div class="header-text text-center text-white">
+            <h1 class="text-center fw-bold">Switch your Gas & Electric Now UK's best value energy at 5% below the price cap</h1>
+          </div>
+          <div class="header-width-text text-center">
+            <p>Get the cheapest energy tariff available in the UK today when you switch any two of your mobile, insurance
+              or broadband to UW.</p>
+            <!-- <p class="pp">Protect yourself against the Government's price cap increase this October.</p> -->
+            <button class="btn get-quote" data-bs-toggle="modal" data-bs-target="#myModal">Get a quote</button> <button
+              class="btn find-more" data-bs-toggle="modal" data-bs-target="#myModal">Find out more</button>
+          </div>
+  
+  
+          <div class="modal fade modal-xl" id="staticBackdrop" data-bs-backdrop="static" data-bs-keyboard="false"
+            tabindex="-1" aria-labelledby="staticBackdropLabel" aria-hidden="true">
+            <div class="modal-dialog">
+              <div class="modal-content">
+                <div class="modal-header float-none">
+                  <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                </div>
+                <div class="modal-body">
+                  <h2 class="fw-bold text-center">GET A QUOTE</h2>
+                  <div class="row justify-content-center">
+                    <div class="col-md-9">
+                      <form action="{% url 'contact' %}" method="POST">
+                        {% csrf_token %}
+                        <div class="row">
+                          <div class="col-md-12">
+                            <div class="mb-3">
+                              <label class="form-label">Full Name <strong
+                                  class="text-danger"><sup>*</sup></strong></label>
+                              <input type="text" class="form-control" name="fullname" required>
+                            </div>
+                          </div>
+                        </div>
+                        <div class="row">
+                          <div class="col-lg-6 col-md-12">
+                            <div class="mb-3">
+                              <label class="form-label">House Number <strong
+                                  class="text-danger"><sup>*</sup></strong></label>
+                              <input type="text" class="form-control" name="housenum" required>
+                            </div>
+                          </div>
+                          <div class="col-lg-6 col-md-12">
+                            <div class="mb-3">
+                              <label class="form-label">Postcode <strong class="text-danger"><sup>*</sup></strong></label>
+                              <input type="text" class="form-control" name="postcode" required>
+                            </div>
+                          </div>
+                        </div>
+                        <div class="row">
+                          <div class="col-lg-6 col-md-12">
+                            <div class="mb-3">
+                              <label class="form-label">Telephone Number <strong
+                                  class="text-danger"><sup>*</sup></strong></label>
+                              <input type="number" class="form-control" name="telnumber" required>
+                            </div>
+                          </div>
+                          <div class="col-lg-6 col-md-12">
+                            <div class="mb-3">
+                              <label class="form-label">Email Address <strong
+                                  class="text-danger"><sup>*</sup></strong></label>
+                              <input type="text" class="form-control" name="email" required>
+                            </div>
+                          </div>
+                        </div>
+                        <div class="row mt-4">
+                          <div class="col-md-12">
+                            <label class="form-check-label mb-3" for="flexCheckDefault">
+                              <h5>Best time to contact</h5>
+                            </label>
+                            <div class="mb-1 switched"><span>
+                                <label class="switch">
+                                  <input type="checkbox" name="besttime" value="Morning">
+                                  <span class="slider round"></span>
+                                </label>
+                                <label class="text">Morning</label>
+                              </span>
+                            </div>
+                            <div class=" mb-1 switched">
+                              <label class="switch">
+                                <input type="checkbox" name="besttime" value="Afternoon">
+                                <span class="slider round"></span>
+                              </label>
+                              <label for="" class="text">Afternoon</label>
+                            </div>
+                            <div class="mb-1 switched">
+                              <label class="switch">
+                                <input type="checkbox" name="besttime" value="Evening">
+                                <span class="slider round"></span>
+                              </label>
+                              <label for="" class="text">Evening</label>
+                            </div>
+                          </div>
+                        </div>
+                        <div class="row mt-4">
+                          <div class="col-md-12">
+                            <label class="form-check-label mb-3" for="flexCheckDefault">
+                              <h5>Which Services are you interested in?</h5>
+                            </label>
+                            <div class="mb-1 switched">
+                              <label class="switch">
+                                <input type="checkbox" name="service" value="GAS & Electricity">
+                                <span class="slider round"></span>
+                              </label>
+                              <label for="" class="text">GAS & Electricity</label>
+                            </div>
+                            <div class="mb-1 switched">
+                              <label class="switch">
+                                <input type="checkbox" name="service" value="GAS">
+                                <span class="slider round"></span>
+                              </label>
+                              <label for="" class="text">GAS</label>
+                            </div>
+                            <div class="mb-1 switched">
+                              <label class="switch">
+                                <input type="checkbox" name="service" value="Electricity">
+                                <span class="slider round"></span>
+                              </label>
+                              <label for="" class="text">Electricity</label>
+                            </div>
+                            <div class="mb-1 switched">
+                              <label class="switch">
+                                <input type="checkbox" name="service" value="Broadband">
+                                <span class="slider round"></span>
+                              </label>
+                              <label for="" class="text">Broadband</label>
+                            </div>
+                            <div class="mb-1 switched">
+                              <label class="switch">
+                                <input type="checkbox" name="service" value="Mobile Sim Card">
+                                <span class="slider round"></span>
+                              </label>
+                              <label for="" class="text">Mobile Sim Card</label>
+                            </div>
+                            <div class="mb-1 switched">
+                              <label class="switch">
+                                <input type="checkbox" name="service" value="Home Cover">
+                                <span class="slider round"></span>
+                              </label>
+                              <label for="" class="text">Home Cover</label>
+                            </div>
+                            <div class="d-grid gap-2 mt-4 mb-3">
+                              <input type="submit" value="Submit" class="form-control">
+                            </div>
+                          </div>
+                        </div>
+                      </form>
+                    </div>
+                  </div>
+                </div>
+  
+              </div>
+            </div>
+          </div>
+        </div>
+  
+      </section>
+  
+  
+  
+  
+  
+  
+  
+  
+      <!-- ////////////////  Fix Tariff Energy section  /////////////////// -->
+      <section class="energy-tariff" id="save-energy-bills">
+        <div class="container energy-tariff-container">
+          <div class="row pt-5 pb-3 justify-content-between">
+            <div class="col-md-6 pt-5 ">
+              <h2 class="fw-bold">Switch your Gas & Electric to the UK's best energy supplier and start saving money</h2>
+              <!-- <p class="text-muted mt-4">
+                      Our fixed energy tariff is £3,550 when you switch all your home services to UW. Including the Government's rebate, this means a typical customer will pay only £3,150 until the end of August 2023.
+                  </p> -->
+              <button class="btn text-uppercase get-quote float-end text-white fw-bold" data-bs-toggle="modal"
+                data-bs-toggle="modal" data-bs-target="#myModal">Get a quote</button>
+            </div>
+            <div class="col-lg-5 col-md-6 text-center">
+              <img src="/static/img/arrow.png" width="400px" class="img-fluid" alt="gas">
+            </div>
+          </div>
+        </div>
+      </section>
+  
+  
+      <!-- ////////////////  animated video section  /////////////////// -->
+  
+      <section>
+        <div class="container-fluid">
+          <div class="row">
+            <div class="col-12 col-md-12 col-lg-12" style="padding: 0;">
+              <video allowfullscreen autoplay loop muted controls width="100%"
+              poster="/static/img/uw video.jpg">
+                <source src="/static/img/Energy Animated Videos.mp4" type="video/mp4">
+              </video>
+  
+            </div>
+          </div>
+        </div>
+      </section>
+  
+  
+  
+  
+  
+  
+  
+  
+      <!-- ////////////////  Save Amount section  /////////////////// -->
+      <section class="saveamount">
+        <div class="container saveamount-container">
+          <div class="row mt-5">
+            <div class="col-md-6 mt-3 text-center">
+              <img src="/static/img/safe.png" width="600px" class="img-fluid" alt="price cap">
+            </div>
+            <div class="col-md-6 mt-5">
+              <h2 class="fw-bold">Switching could save £467 on your Gas, Electric, Broadband and Mobile</h2>
+              <p class="text-muted mt-2">
+                Over 22 million households are being impacted in the UK by the largest energy price hike in a generation.
+              </p>
+              <p class="text-muted mt-5">But you could unlock benefits and savings of £467 in your first year when you
+                switch your energy, broadband, mobile and insurance to UW with a free £50 credit on your Cashback Card if
+                you take all four services.</p>
+              <h2 class="fw-bold">Free £50 credit on your Cashback Card</h2>
+              <p class="text-muted mt-2">That means you can get the cheapest energy in the UK when you switch all your
+                home services to UW.</p>
+              <button class="btn text-uppercase get-quote float-end text-white fw-bold" data-bs-toggle="modal"
+                data-bs-target="#myModal">Get a quote</button>
+            </div>
+          </div>
+        </div>
+      </section>
+  
+  
+  
+  
+      <!-- ////////////////  Mind promise  /////////////////// -->
+      <section class="mb-5 mind-promise text-white mx-2">
+        <div class="container">
+          <div class="row justify-content-center">
+            <div class="col-lg-11 col-md-12">
+              <div class="container mind-promise-container">
+                <div class="row justify-content-center">
+                  <div class="col-md-6">
+                    <h2 class="fw-bold">Our Peace of Mind Promise</h2>
+                    <h4>When you switch all your home <br class="br"> services to UW you can get:</h4>
+                  </div>
+                  <div class="col-md-6 mt-3">
+                    <span><img src="/static/img/tick.png" alt="budget energy"> <span>Energy prices 5% below the Government's price cap
+                      </span></span><br><br class="br">
+                    <span><img src="/static/img/tick.png" alt="utlities"> <span>£200 towards any early termination fees with
+                        existing suppliers </span></span><br><br class="br">
+                    <span><img src="/static/img/tick.png" alt="electric"> <span>30 days to change your mind, and switch away
+                        without penalty</span></span>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+  
+  
+  
+      <!-- ////////////////  Contact_info Modal  /////////////////// -->
+  
+      <!-- The Modal -->
+      <div class="modal" id="myModal">
+        <div class="modal-dialog modal-dialog-centered modal-lg">
+          <div class="modal-content set_padding_margin">
+  
+            <!-- Modal Header -->
+            <!-- <div class="modal-header">
+          <h4 class="modal-title">Get Cheapest Energy Deals on your Gas & Electric</h4>
+          <button type="button" class="btn-close" data-bs-dismiss="modal"></button>
+        </div> -->
+  
+            <!-- Modal body -->
+            <div class="modal-body set_padding_margin">
+              <div class="container">
+                <div class="row">
+                  <div class="col-md-6 col-lg-6 col-12 set_gradient2">
+                    <div class="text-end btn-hide2 pt-1">
+                      <button type="button" class="btn-close btn-close-white" data-bs-dismiss="modal"></button>
+                    </div>
+                    <div class="p-2 pb-3 pt-0 p-md-4 p-lg-4">
+                      <img src="/static/img/whitelogo.png" width="70%" class="logo-partner" alt="switch gas & electric">
+                      <h2 class="modal-title text-color pt-2  p-md-4 p-lg-4 px-md-0 px-lg-0">Get Cheapest Energy Deals
+                      </h2>
+                    </div>
+                  </div>
+                  <div class="col-md-6 col-lg-6 col-12">
+                    <form id="info">
+                      <div class="text-end p-2">
+                        <button type="button" class="btn-close btn-hide" data-bs-dismiss="modal"></button>
+                      </div>
+                      <div class=" p-md-5 p-lg-5 pt-md-3 pt-lg-3 p-2">
+                        <div class="mb-3">
+                          <label for="postcode" class="pb-1">PostCode</label>
+                          <input type="text" class="form-control none_style" id="postcode" placeholder="postcode*"
+                            required>
+                        </div>
+                        <div class="mb-3">
+                          <label for="name" class="pb-1">Name</label>
+                          <input type="text" class="form-control none_style" id="name" placeholder="Name">
+                        </div>
+                        <div class="mb-3">
+                          <label for="phone" class="pb-1">Phone</label>
+                          <input type="number" class="form-control none_style" id="phone" placeholder="phone">
+                        </div>
+                        <div class="mb-3">
+                          <label for="email" class="pb-1">Email</label>
+                          <input type="email" class="form-control none_style" id="email" placeholder="email">
+                        </div>
+                        <div class="pt-md-3 pt-lg-3">
+                          <button type="submit"
+                            class="btn btn-primary btn-block none_style set_width set_gradient mb-2 mb-md-0 mb-lg-0">Check
+                            Now</button>
+                        </div>
+                      </div>
+                    </form>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+  
+  
+  
+      <!-- ////////////////  discount section  /////////////////// -->
+  
+      <!-- <section>
+    <div class="container text-white mt-2 mb-5 mind-promis-container">
+      <div class="row-padd">
+        <div class="row p-3 pb-3">
+          <div class="col-8 col-md-8 col-lg-8 extra-padd">
+            <h3 class="adj-font"><b> Britain's best bundles just got a boost</b></h3>
+            <p class="adj-fontt">Homeowner who switch <b>any three service</b>to UW can get:</p>
+          </div>
+          <div class="col-4 col-md-4 col-lg-4 text-center extra-padd">
+            <img src="/static/img/whitelogo.png" width="60%" class="logo-partner" alt="">
+          </div>
+        </div>
+  
+        <div class="row text-center">
+          <div class="col-12 col-md-12 col-lg-12 text-center">
+            <div style="display: flex;" class="text-center change-display">
+              <div class="col-12 col-md-4 col-lg-4">
+                <span><img src="/static/img/discount 1.webp" class="p-3 img-add mb-2 img-width" width="65%" alt=""></span>
+                <h6 class="pt-4"><strong> The cheapest <span style="color: #14c89c;"> energy</span> <br> in the uk</strong></h6>
+              </div>
+              <span style="justify-content: center;align-items: center;display: flex;"><img src="/static/img/add.png"
+                  class="img-add mb-2" width="25px" alt=""></span>
+              <div class="col-12 col-md-4 col-lg-4">
+                <span><img src="/static/img/discount 2.webp" class="p-3 img-add mb-2 img-width" width="75%" alt=""></span>
+                <h6 class="pt-4"><strong>Great value <span style="color: #ff6ee4;"> broadband,</span> <br><span
+                      style="color: #ffcc2e;">mobile</span> and <span style="color: #ff489a;">insurance</span> </strong>
+                </h6>
+              </div>
+              <span style="justify-content: center;align-items: center;display: flex;"><img src="/static/img/add.png"
+                  class="img-add mb-2" width="25px" alt=""></span>
+              <div class="col-12 col-md-4 col-lg-4">
+                <span><img src="/static/img/discount 3.webp" class="p-3 img-add mb-2 img-width" width="75%" alt=""></span>
+                <h6 class="pt-4"><strong> A on-off-credit <br> on thier bill</strong> </h6>
+              </div>
+            </div>
+          </div>
+        </div>
+  
+        <div class="row text-center pt-4">
+          <div class="col-12 col-md-12 col-lg-12">
+            <small>
+              <p>
+                New customers, homeowners, signing up via a UW Partner only. Subject to availability. Insurance means
+                Bollar &
+                Home Cover or income Protector only. Registered in England, Company number: 04504421 Utility Warehouse
+                Limited
+                is Conduct Authority. Cheapest energy: UW Value variable tariff vs standard variable tariff. For sale
+                nationality, excL existing customers tariff. Based on Ofglen’s typical domestic usage. Payment by direct
+                debit.
+              </p>
+              <p>
+                Correct: 01/01/2022. Contact us to verify, Cheaper UW variable tariffs available to eligible multiservice
+                customers. Terms apply.
+              </p>
+          </div>
+          </small>
+        </div>
+      </div>
+    </div>
+  </section>  -->
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+      <!-- ////////////////  better off bundling!  /////////////////// -->
+      <div id="bundle-offer"></div>
+      <section class="mb-5 better-bundling" id="bundle-offer">
+        <div class="container better-bundling-container">
+          <div class="row justify-content-center">
+            <div class="col-lg-7 col-md-12 text-center">
+              <h2 class="fw-bold">You're better off bundling! <br>Select the bundle you like and save money.</h2>
+              <p class="text-muted pt-2">Here are a few ways you could combine our services to get savings. The more
+                services you switch to UW, the more you'll save on your energy. Including access to the cheapest energy
+                tariff available
+                for sale in the UK today, when you switch three or four services.</p>
+              <h3 class="fw-bold text-dark mt-5">Gas, Electric, Broadband, Insurance & Mobile service bundle!</h3>
+              <p class="text-muted">Our biggest savings - Unlock the UK's cheapest energy. Plus 10% off your broadband
+                when you take both broadband and mobile & get 50 credit for
+                free when you take a Cashback Card.</p>
+            </div>
+          </div>
+        </div>
+      </section>
+  
+  
+  
+  
+  
+  
+      <!-- ////////////////  cashback table  /////////////////// -->
+      <section class="mb-5 cashback-table text-white mx-2">
+        <div class="container">
+          <div class="row justify-content-center">
+            <div class="col-lg-11 col-md-12">
+              <div class="container cashback-table-container">
+                <div class="row justify-content-center">
+                  <div class="col-md-12">
+                    <div class="table-responsive">
+                      <table class="table text-center text-white fw-bold align-middle table-borderless">
+                        <thead>
+                          <tr>
+                            <th scope="col"></th>
+                            <th scope="col" class="py-4"><img src="/static/img/lighting.png" class="img-lighting"
+                                width="20px" alt="lighting energy">
+                              <h5 class="mt-3">Gas & Electric</h5>
+                            </th>
+                            <th scope="col" class="py-4"><img src="/static/img/add.png" class="img-add mb-2" width="15px"
+                                alt="gas prices"></th>
+                            <th scope="col" class="py-4"><img src="/static/img/router.png" class="img-router" width="42px"
+                                alt="energy">
+                              <h5 class="mt-3">Broadband</h5>
+                            </th>
+                            <th scope="col" class="py-4"><img src="/static/img/add.png" class="img-add mb-2" width="15px"
+                                alt="gas prices"></th>
+                            <th scope="col" class="py-4"><img src="/static/img/cell-phone.png" class="img-cell"
+                                width="22px" alt="cell phone">
+                              <h5 class="mt-3">Mobile</h5>
+                            </th>
+                            <th scope="col" class="py-4"><img src="/static/img/add.png" class="img-add mb-2" width="15px"
+                                alt="gas prices"></th>
+                            <th scope="col" class="py-4"><img src="/static/img/insurance.png" class="img-ins" width="30px"
+                                alt="insurance">
+                              <h5 class="mt-3">Insurance</h5>
+                            </th>
+                            <th scope="col" class="fw-bold text-white tpy text-center  py-5">Total per year</th>
+                          </tr>
+                        </thead>
+                        <tbody>
+                          <tr class="py-5 number">
+                            <th class="py-4"><img src="/static/img/uw.png" width="80px" alt="Utility Warehouse"></th>
+                            <td>&#163;1,872</td>
+                            <td></td>
+                            <td>&#163;259</td>
+                            <td></td>
+                            <td>&#163;216</td>
+                            <td></td>
+                            <td>&#163;216</td>
+                            <td class="text-center">&#163;2,564</td>
+                          </tr>
+                          <tr class="number border-0">
+                            <th class="fw-bold text-white py-3 border-0">Competitor<br>Average</th>
+                            <td class="border-0">&#163;1,971</td>
+                            <td class="border-0"></td>
+                            <td class="border-0">&#163;303</td>
+                            <td class="border-0"></td>
+                            <td class="border-0">&#163;427</td>
+                            <td class="border-0"></td>
+                            <td class="border-0">&#163;280</td>
+                            <td class="text-center border-0">&#163;2,981</td>
+                          </tr>
+                        </tbody>
+                      </table>
+                    </div>
+  
+                  </div>
+                </div>
+              </div>
+              <div class="container save-inc mt-5">
+                <div class="row">
+                  <div class="col-md-6">
+                    <h2 class="fw-bold">SAVING &#163;467 INC. <br> &#163;50 CASHBACK CARD CREDIT.
+                    </h2>
+                  </div>
+                  <div class="col-md-6 text-center">
+                    <button class="get-quote btn text-white fw-bold" role="button" data-bs-toggle="modal"
+                      data-bs-target="#myModal">GET A QUOTE</button>
+  
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+  
+  
+  
+  
+  
+  
+  
+      <!-- ////////////////  Service bundle section  ///////////////////-->
+      <section class="service-bundle mb-5">
+        <div class="container service-bundle-container">
+          <div class="row justify-content-center">
+            <div class="col-md-7 text-center">
+              <h2 class="fw-bold text-dark">
+                Our Gas, Electric, Broadband & Mobile service bundle!
+              </h2>
+              <p class="text-muted">Unlock the UK's cheapest energy deal plus 10% off your broadband when you take both
+                broadband and mobile.</p>
+            </div>
+          </div>
+        </div>
+      </section>
+  
+  
+  
+  
+      <!-- ////////////////  Saving 467 section  /////////////////// -->
+      <section class="saving-amount">
+        <div class="section-one mx-2">
+          <div class="container">
+            <div class="row justify-content-center">
+              <div class="col-lg-10 col-md-12">
+                <div class="container saving-amount-container">
+                  <div class="row">
+                    <div class="col-md-12">
+                      <div class="table-responsive">
+                        <table class="table text-center text-white fw-bold align-middle table-borderless">
+                          <thead>
+                            <tr>
+                              <th scope="col"></th>
+                              <th scope="col" class="py-4"><img src="/static/img/lighting.png" class="img-lighting"
+                                  width="20px" alt="lighting energy">
+                                <h5 class="mt-3">Gas & Electric</h5>
+                              </th>
+                              <th scope="col" class="py-4"><img src="/static/img/add.png" class="img-add mb-2"
+                                  width="15px" alt="gas prices"></th>
+                              <th scope="col" class="py-4"><img src="/static/img/router.png" class="img-router"
+                                  width="42px" alt="energy">
+                                <h5 class="mt-3">Broadband</h5>
+                              </th>
+                              <th scope="col" class="py-4"><img src="/static/img/add.png" class="img-add mb-2"
+                                  width="15px" alt="gas prices"></th>
+                              <th scope="col" class="py-4"><img src="/static/img/cell-phone.png" class="img-cell"
+                                  width="22px" alt="cell phone">
+                                <h5 class="mt-3">Mobile</h5>
+                              </th>
+                              <th scope="col" class="fw-bold text-white tpy text-center  py-5">Total per year</th>
+                            </tr>
+                          </thead>
+                          <tbody>
+                            <tr class="py-5 number">
+                              <th class="py-4"><img src="/static/img/uw.png" width="80px" alt="Utility Warehouse"></th>
+                              <td>&#163;1,872</td>
+                              <td></td>
+                              <td>&#163;259</td>
+                              <td></td>
+                              <td>&#163;216</td>
+                              <td class="text-center">&#163;2,348</td>
+                            </tr>
+                            <tr class="number border-0">
+                              <th class="fw-bold text-white py-3 border-0">Competitor<br>Average</th>
+                              <td class="border-0">&#163;1,971</td>
+                              <td class="border-0"></td>
+                              <td class="border-0">&#163;303</td>
+                              <td class="border-0"></td>
+                              <td class="border-0">&#163;427</td>
+                              <td class="text-center border-0">&#163;2,701</td>
+                            </tr>
+                          </tbody>
+                        </table>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <div class="container">
+                  <div class="saving-btn float-end me-5">
+                    <button class="btn saving-am text-white fw-bold" role="button">SAVING &#163;454</button>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+  
+  
+  
+  
+  
+        <div class="section-one">
+          <div class="container">
+            <div class="row justify-content-center">
+              <div class="col-lg-10 col-md-12">
+                <div class="container saving-amount-container">
+                  <div class="row">
+                    <div class="col-md-12">
+                      <div class="table-responsive">
+                        <table class="table text-center text-white fw-bold align-middle table-borderless">
+                          <thead>
+                            <tr>
+                              <th scope="col"></th>
+                              <th scope="col" class="py-4"><img src="/static/img/lighting.png" class="img-lighting"
+                                  width="20px" alt="lighting energy">
+                                <h5 class="mt-3">Gas & Electric</h5>
+                              </th>
+                              <th scope="col" class="py-4"><img src="/static/img/add.png" class="img-add mb-2"
+                                  width="15px" alt="gas prices"></th>
+                              <th scope="col" class="py-4"><img src="/static/img/cell-phone.png" class="img-cell"
+                                  width="22px" alt="cell phone">
+                                <h5 class="mt-3">Mobile </h5>
+                              </th>
+                              <th scope="col" class="py-4"><img src="/static/img/add.png" class="img-add mb-2"
+                                  width="15px" alt="gas prices"></th>
+                              <th scope="col" class="py-4"><img src="/static/img/insurance.png" class="img-ins"
+                                  width="30px" alt="insurance">
+                                <h5 class="mt-3">Insurance</h5>
+                              </th>
+                              <th scope="col" class="fw-bold text-white tpy text-center  py-5">Total per year</th>
+                            </tr>
+                          </thead>
+                          <tbody>
+                            <tr class="py-5 number">
+                              <th class="py-4"><img src="/static/img/uw.png" width="80px" alt="Utility Warehouse"></th>
+                              <td>&#163;1,872</td>
+                              <td></td>
+                              <td>&#163;216</td>
+                              <td></td>
+                              <td>&#163;216</td>
+                              <td class="text-center">&#163;2,304</td>
+                            </tr>
+                            <tr class="number border-0">
+                              <th class="fw-bold text-white py-3 border-0">Competitor<br>Average</th>
+                              <td class="border-0">&#163;1,971</td>
+                              <td class="border-0"></td>
+                              <td class="border-0">&#163;427</td>
+                              <td class="border-0"></td>
+                              <td class="border-0">&#163;280</td>
+                              <td class="text-center border-0">&#163;2,678</td>
+                            </tr>
+                          </tbody>
+                        </table>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <div class="container">
+                  <div class="saving-btn float-end me-5">
+                    <button class="btn saving-am text-white fw-bold" role="button">SAVING &#163;374</button>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+  
+  
+  
+  
+        <div class="section-on">
+          <div class="container">
+            <div class="row justify-content-center">
+              <div class="col-lg-10 col-md-12">
+                <div class="container saving-amount-container">
+                  <div class="row">
+                    <div class="col-md-12">
+                      <div class="table-responsive">
+                        <table class="table text-center text-white fw-bold align-middle table-borderless">
+                          <thead>
+                            <tr>
+                              <th scope="col"></th>
+                              <th scope="col" class="py-4"><img src="/static/img/lighting.png" class="img-lighting"
+                                  width="20px" alt="lighting energy">
+                                <h5 class="mt-3">Gas & Electric</h5>
+                              </th>
+                              <th scope="col" class="py-4"><img src="/static/img/add.png" class="img-add mb-2"
+                                  width="15px" alt="gas prices"></th>
+                              <th scope="col" class="py-4"><img src="/static/img/router.png" class="img-cell" width="42px"
+                                  alt="cell phone">
+                                <h5 class="mt-3">Broadband</h5>
+                              </th>
+                              <th scope="col" class="py-4"><img src="/static/img/add.png" class="img-add mb-2"
+                                  width="15px" alt="gas prices"></th>
+                              <th scope="col" class="py-4"><img src="/static/img/insurance.png" class="img-ins"
+                                  width="30px" alt="insurance">
+                                <h5 class="mt-3">Insurance</h5>
+                              </th>
+                              <th scope="col" class="fw-bold text-white tpy text-center  py-5">Total per year</th>
+                            </tr>
+                          </thead>
+                          <tbody>
+                            <tr class="py-5 number">
+                              <th class="py-4"><img src="/static/img/uw.png" width="80px" alt="Utility Warehouse"></th>
+                              <td>&#163;1,872</td>
+                              <td></td>
+                              <td>&#163;288</td>
+                              <td></td>
+                              <td>&#163;216</td>
+                              <td class="text-center">&#163;2,376</td>
+                            </tr>
+                            <tr class="number border-0">
+                              <th class="fw-bold text-white py-3 border-0">Competitor<br>Average</th>
+                              <td class="border-0">&#163;1,971</td>
+                              <td class="border-0"></td>
+                              <td class="border-0">&#163;303</td>
+                              <td class="border-0"></td>
+                              <td class="border-0">&#163;280</td>
+                              <td class="text-center border-0">&#163;2,554</td>
+                            </tr>
+                          </tbody>
+                        </table>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <div class="container see-bundles">
+  
+                  <div class="saving-btn float-end me-5">
+                    <button class="btn saving-am text-white fw-bold" role="button">SAVING &#163;177</button>
+                  </div>
+  
+                  <div class="saving-btn ms-4">
+                    <button class="btn get-quote text-white fw-bold" role="button" data-bs-toggle="modal"
+                      data-bs-target="#myModal">GET A QUOTE</button>
+                  </div>
+                  <div class="row justify-content-cente mb-5 text-center">
+                    <div class=" offset-md-4 col-md-4 ">
+                      <button class="btn rounded-pill text-white" id="hide-and-show">Click here to see bundles</button>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+  
+  
+  
+  
+  
+      <!-- ////////////////  Service bundle section  ///////////////////-->
+      <div id="see-more-bundles">
+        <section class="service-bundle mb-5 mt-5">
+          <div class="container service-bundle-container">
+            <div class="row justify-content-center">
+              <div class="col-md-7 text-center">
+                <h2 class="fw-bold text-dark">
+                  Our Gas, Electric & Broadband service bundle!
+                </h2>
+                <p class="text-muted">Unlock the UK's cheapest energy deal plus 10% off your broadband when you take both
+                  broadband and mobile.</p>
+              </div>
+            </div>
+          </div>
+        </section>
+  
+  
+  
+  
+  
+  
+        <!-- ////////////////  Saving 467 section  /////////////////// -->
+        <section class="saving-amount">
+          <div class="section-one mx-2">
+            <div class="container">
+              <div class="row justify-content-center">
+                <div class="col-lg-10 col-md-12">
+                  <div class="container saving-amount-container">
+                    <div class="row">
+                      <div class="col-md-12">
+                        <div class="table-responsive">
+                          <table class="table text-center text-white fw-bold align-middle table-borderless">
+                            <thead>
+                              <tr>
+                                <th scope="col"></th>
+                                <th scope="col" class="py-4"><img src="/static/img/lighting.png" class="img-lighting"
+                                    width="20px" alt="lighting energy">
+                                  <h5 class="mt-3">Gas & Electric</h5>
+                                </th>
+                                <th scope="col" class="py-4"><img src="/static/img/add.png" class="img-add mb-2"
+                                    width="15px" alt="gas prices"></th>
+                                <th scope="col" class="py-4"><img src="/static/img/router.png" class="img-router"
+                                    width="42px" alt="energy">
+                                  <h5 class="mt-3">Broadband</h5>
+                                </th>
+                                <th scope="col" class="fw-bold text-white tpy text-center  py-5">Total per year</th>
+                              </tr>
+                            </thead>
+                            <tbody>
+                              <tr class="py-5 number">
+                                <th class="py-4"><img src="/static/img/uw.png" width="80px" alt="Utility Warehouse"></th>
+                                <td>&#163;1,992</td>
+                                <td></td>
+                                <td>&#163;288</td>
+                                <td class="text-center">&#163;2,210</td>
+                              </tr>
+                              <tr class="number border-0">
+                                <th class="fw-bold text-white py-3 border-0">Competitor<br>Average</th>
+                                <td class="border-0">&#163;1,971</td>
+                                <td class="border-0"></td>
+                                <td class="border-0">&#163;303</td>
+                                <td class="text-center border-0">&#163;2,274</td>
+                              </tr>
+                            </tbody>
+                          </table>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="container">
+                    <div class="saving-btn float-end me-5">
+                      <button class="btn saving-am text-white fw-bold" role="button">SAVING &#163;64</button>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+  
+  
+  
+  
+  
+          <div class="section-one">
+            <div class="container">
+              <div class="row justify-content-center">
+                <div class="col-lg-10 col-md-12">
+                  <div class="container saving-amount-container">
+                    <div class="row">
+                      <div class="col-md-12">
+                        <div class="table-responsive">
+                          <table class="table text-center text-white fw-bold align-middle table-borderless">
+                            <thead>
+                              <tr>
+                                <th scope="col"></th>
+                                <th scope="col" class="py-4"><img src="/static/img/lighting.png" class="img-lighting"
+                                    width="20px" alt="lighting energy">
+                                  <h5 class="mt-3">Gas & Electric</h5>
+                                </th>
+                                <th scope="col" class="py-4"><img src="/static/img/add.png" class="img-add mb-2"
+                                    width="15px" alt="gas prices"></th>
+                                <th scope="col" class="py-4"><img src="/static/img/insurance.png" class="img-ins"
+                                    width="30px" alt="insurance">/static/img/uw.png
+                                  <h5 class="mt-3">Insurance</h5>
+                                </th>
+                                <th scope="col" class="fw-bold text-white tpy text-center  py-5">Total per year</th>
+                              </tr>
+                            </thead>
+                            <tbody>
+                              <tr class="py-5 number">
+                                <th class="py-4"><img src="/static/img/uw.png" width="80px" alt="Utility Warehouse"></th>
+                                <td>&#163;1,992</td>
+                                <td></td>
+                                <td>&#163;216</td>
+                                <td class="text-center">&#163;2,138</td>
+                              </tr>
+                              <tr class="number border-0">
+                                <th class="fw-bold text-white py-3 border-0">Competitor<br>Average</th>
+                                <td class="border-0">&#163;1,971</td>
+                                <td class="border-0"></td>
+                                <td class="border-0">&#163;280</td>
+                                <td class="text-center border-0">&#163;2,251</td>
+                              </tr>
+                            </tbody>
+                          </table>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="container">
+                    <div class="saving-btn float-end me-5">
+                      <button class="btn saving-am text-white fw-bold" role="button">SAVING &#163;113 </button>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+  
+  
+  
+  
+          <div class="section-on">
+            <div class="container">
+              <div class="row justify-content-center">
+                <div class="col-lg-10 col-md-12">
+                  <div class="container saving-amount-container">
+                    <div class="row">
+                      <div class="col-md-12">
+                        <div class="table-responsive">
+                          <table class="table text-center text-white fw-bold align-middle table-borderless">
+                            <thead>
+                              <tr>
+                                <th scope="col"></th>
+                                <th scope="col" class="py-4"><img src="/static/img/lighting.png" class="img-lighting"
+                                    width="20px" alt="lighting energy">
+                                  <h5 class="mt-3">Gas & Electric</h5>
+                                </th>
+                                <th scope="col" class="py-4"><img src="/static/img/add.png" class="img-add mb-2"
+                                    width="15px" alt="gas prices"></th>
+                                <th scope="col" class="py-4"><img src="/static/img/cell-phone.png" class="img-ins"
+                                    width="30px" alt="insurance">
+                                  <h5 class="mt-3">Mobile</h5>
+                                </th>
+                                <th scope="col" class="fw-bold text-white tpy text-center  py-5">Total per year</th>
+                              </tr>
+                            </thead>
+                            <tbody>
+                              <tr class="py-5 number">
+                                <th class="py-4"><img src="/static/img/uw.png" width="80px" alt="Utility Warehouse"></th>
+                                <td>&#163;1,922</td>
+                                <td></td>
+                                <td>&#163;216</td>
+                                <td class="text-center">&#163;2,138</td>
+                              </tr>
+                              <tr class="number border-0">
+                                <th class="fw-bold text-white py-3 border-0">Competitor<br>Average</th>
+                                <td class="border-0">&#163;1,971</td>
+                                <td class="border-0"></td>
+                                <td class="border-0">&#163;427</td>
+                                <td class="text-center border-0">&#163;2,398</td>
+                              </tr>
+                            </tbody>
+                          </table>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="container">
+  
+                    <div class="saving-btn float-end me-5">
+                      <button class="btn saving-am text-white fw-bold" role="button">SAVING &#163;260</button>
+                    </div>
+                    <div class="saving-btn ms-4">
+                      <button class="btn get-quote text-white fw-bold" role="button" data-bs-toggle="modal"
+                        data-bs-target="#myModal">GET A QUOTE</button>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </section>
+  
+  
+  
+  
+  
+  
+  
+  
+        <!-- ////////////////  Service bundle section  ///////////////////-->
+        <section class="service-bundle mb-5 mt-5">
+          <div class="container service-bundle-container">
+            <div class="row justify-content-center">
+              <div class="col-md-7 text-center">
+                <h2 class="fw-bold text-dark">
+                  Gas & Electric energy only service!
+                </h2>
+                <p class="text-muted">Unlock the UK's cheapest energy or choose our fix tariff for protection against
+                  price rises. Plus 10% off your broadbnd when you take both broadband and mobile.</p>
+              </div>
+            </div>
+          </div>
+        </section>
+  
+  
+  
+  
+  
+  
+  
+        <section class="single-service">
+          <div class="section-on">
+            <div class="container ">
+              <div class="row justify-content-center">
+                <div class="col-lg-9 col-md-12">
+                  <div class="container ">
+                    <div class="row justify-content-center">
+                      <div class="col-md-5 single-service-container">
+                        <div class="table-responsive">
+                          <table class="table text-center text-white fw-bold align-middle table-borderless">
+                            <thead>
+                              <tr>
+                                <th scope="col"></th>
+                                <th scope="col" class="py-4"><img src="/static/img/lighting.png" class="img-lighting"
+                                    width="20px" alt="lighting energy"></th>
+                              </tr>
+                            </thead>
+                            <tbody>
+                              <tr class="py-5 number">
+                                <th class="py-4"><img src="/static/img/uw.png" width="80px" alt="Utility Warehouse"></th>
+                                <td>&#163;1,961</td>
+                              </tr>
+                              <tr class="number border-0">
+                                <th class="fw-bold text-white py-3 border-0">Competitor<br>Average</th>
+                                <td class="border-0">&#163;1,971</td>
+                              </tr>
+                            </tbody>
+                          </table>
+                        </div>
+                      </div>
+                      <div class="col-md-1 my-4"></div>
+                      <div class="col-md-5 single-service-container">
+                        <div class="table-responsive">
+                          <table class="table text-center text-white fw-bold align-middle table-borderless">
+                            <thead>
+                              <tr>
+                                <th scope="col"></th>
+                                <th scope="col" class="py-4"><img src="/static/img/router.png" class="img-router"
+                                    width="40px" alt="energy"></th>
+                              </tr>
+                            </thead>
+                            <tbody>
+                              <tr class="py-5 number">
+                                <th class="py-4"><img src="/static/img/uw.png" width="80px" alt="Utility Warehouse"></th>
+                                <td>&#163;288</td>
+                              </tr>
+                              <tr class="number border-0">
+                                <th class="fw-bold text-white py-3 border-0">Competitor<br>Average</th>
+                                <td class="border-0">&#163;303</td>
+                              </tr>
+                            </tbody>
+                          </table>
+                        </div>
+                      </div>
+                      <div class="container">
+                        <div class="saving-btn float-end me-5">
+                          <button class="btn saving-am text-white fw-bold" role="button">SAVING &#163;10</button>
+                        </div>
+                      </div>
+                    </div>
+                    <div class="container mt-n5">
+                      <div class="row justify-content-start">
+                        <div class="col-md-5 ms-3">
+                          <div class="saving-btn float-end">
+                            <button class="btn saving-amm text-white fw-bold" role="button">SAVING &#163;10</button>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="container text-center mt-1">
+                    <div class="saving-btn">
+                      <button class="btn get-quote text-white fw-bold" role="button" data-bs-toggle="modal"
+                        data-bs-target="#myModal">GET A QUOTE</button>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </section>
+      </div>
+  
+  
+  
+  
+  
+      <!-- ////////////////  UW section  /////////////////// -->
+      <div id="why-uw"></div>
+      <section class="vector text-white mb-5" id="why-uw">
+        <div class="container vector-container">
+          <h2 class="fw-bold">Utility Warehouse is Uswitch's top awarded energy supplier in 2022</h2>
+          <p class="mt-4 mb-5">We've earned over 70 awards - and counting - in the last decade alone.</p>
+          <p class="mb-5">Most recently, Best Customer Service, Most Likely to Recommend and Best Rewards in the Uswitch
+            Energy Awards 2022.</p>
+          <h3 class="fw-bold" id="other-services">More on our services:</h3>
+        </div>
+        <div class="container vector-img">
+          <div class=" row text-center justify-content-center">
+            <div class="col-md-4 text-center">
+              <span>
+                <img src="/static/img/lighting.png" class="img-fluid img-lighting" width="38px" alt="lighting energy">
+                <img src="/static/img/router.png" class="img-fluid img img-router" width="75px" alt="energy">
+              </span>
+            </div>
+            <div class="col-md-4 text-center">
+              <span>
+                <img src="/static/img/cell-phone.png" class="img-fluid img-cell" width="45px" alt="cell phone">
+                <img src="/static/img/insurance.png" class="img-fluid img img-ins" width="60px" alt="insurance">
+              </span>
+            </div>
+          </div>
+        </div>
+      </section>
+  
+  
+  
+  
+  
+      <!-- ////////////////  Footer section  /////////////////// -->
+      <footer>
+        <section class="footer">
+          <div class="container footer-container">
+            <div class="row">
+              <div class="col-md-6 mb-4">
+                <img src="/static/img/blacklogo.png" class="uw-footer" width="240px" alt="switch gas & electric">
+                <ul class="mt-4">
+                  <li class="text-muted mb-2">Privacy Policy</li>
+                  <li class="text-muted mb-2">Disclaimer</li>
+                  <li class="text-muted mb-2">Cookie Policy</li>
+                </ul>
+                <span>
+                  <a href="#"><img src="/static/img/Fb.png" class="img-fluid me-5 fb-img" width="14px"
+                      alt="Facebook-icon"></a>
+                  <a href="#"><img src="/static/img/Twitter.png" class="img-fluid me-5 " width="21px"
+                      alt="twitter-icon"></a>
+                  <a href="#"><img src="/static/img/google-plus.png" class="img-fluid me-5" width="21px"
+                      alt="google-icon"></a>
+                  <a href="#"><img src="/static/img/dribble.png" class="img-fluid me-5" width="21px"
+                      alt="dribble-icon"></a>
+                  <a href="#"><img src="/static/img/youtube.png" class="img-fluid" width="21px" alt="youtube-icon"></a>
+                </span>
+              </div>
+              <div class="col-md-6 mb-4">
+                <h2 class="fw-bold">Get In Touch</h2>
+                <p class="ms-1 mb-4">Subscribe to our newsletter and get notification for upcoming cool stuff.</p>
+                <form action="{% url 'subscribe' %}" method="POST" class="ms-1 get-in-touch">
+                  {% csrf_token %}
+                  <input type="text" class="form-control" placeholder="Your Email" name="email" required>
+                  <span>
+                    <input type="submit" value="COUNT ME IN"
+                      class="text-uppercase submit-btn btn text-white px-4 py-2 fw-bold">
+                  </span>
+  
+                </form>
+              </div>
+            </div>
+          </div>
+        </section>
+      </footer>
+      <script src="/static/js/main.js"></script>
+      <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-A3rJD856KowSb7dwlZdYEkO39Gagi7vIsF0jrRAoQmDKKtQBHUuLZ9AsSv4jD4Xa"
+        crossorigin="anonymous"></script>
+    </div>
+  
+  
+    <!-- ///////////////////   testig section ////////////////////// -->
+  
+    <style>
+      @media screen and (max-width: 575px) {
+        .adjustment {
+          width: 50% !important;
+        }
+      }
+    </style>
+  
+    <div class="container">
+      <div class="row text-center" id="spincont" style="display: none;">
+        <div class="col-md-12 col-12 text-center mt-5 pt-5">
+          <div>
+            <h2 style="color: black;border-radius: 8px 8px 0 0;background: linear-gradient(to right, #1366b3 10%, #d70d53 90%);-webkit-background-clip: text;
+                  -webkit-text-fill-color: transparent;" class=" text-center"><b>
+                Please <span style="color: rgb(22, 104, 155);" class="auto-inp"></span></b>
+            </h2>
+            <div>
+              <img alt="speed optimization" src="/static/img/giphy.gif" class="adjustment" width="30%">
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+      <script src="https://cdn.jsdelivr.net/npm/typed.js@2.0.12"></script>
+ <script type="text/javascript">
+  $(document).on('submit','#info',function(e){
+      e.preventDefault();
+      // document.getElementById('contacttwo').style.display = "none";
+      $.ajax({
+        type: 'POST',
+        url: 'info/',
+        data:{
+          name:$('#name').val(),
+          phone:$('#phone').val(),
+          postcode:$('#postcode').val(),
+          email:$('#email').val(),
+          csrfmiddlewaretoken:$('input[name=csrfmiddlewaretoken]').val(),
+        }, 
+        success: function (data){ 
+          document.getElementById("info").reset();
+          $('#myModal').modal('hide');
+          document.getElementById('spino').style.display = "none";
+          let type = new Typed(".auto-inp", {
+            strings: [" wait while we find your local energy representative.."],
+            typeSpeed: 100,
+            loop: true
+          })
+          document.getElementById('spincont').style.display = "block";
+          $(document).ready(function () {
+            window.setTimeout(function(){window.location.href = "https://uw.partners/noshy.amir"},7000);
+          });
+        }
+      });
+  });
+</script>
+  </body>
+</html>

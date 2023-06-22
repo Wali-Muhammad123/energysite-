@@ -1,0 +1,821 @@
+@media screen and (max-width:1399.5px){
+    /* ///////////////// Offical Partners section   ///////////////// */
+    .op .op-container .get-quote{
+        background-color: #550091;
+        font-size: 18px;
+        margin-top: -190px;
+        padding: 10px 25px 10px 25px;
+      }
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+@media screen and (max-width:1200px){
+    /* /////////////////  Header Section ///////////// */
+    .switched .text{
+        position: absolute;
+        top:-15%;
+        left: 11%;
+      }
+.header .header-container .navbar .collapse .navbar-nav .nav-item .nav-link{
+    color:black;
+    font-size: 18px;
+    margin-right: 17px;
+}
+.header .header-container img{
+    width: 250px;
+}
+.header .energy-bills h1{
+    margin-top: 20px;
+    font-size: 34px;
+}
+.header .energy-bills p{
+    margin-top: 30px;
+    margin-bottom: 40px;
+    font-size: 17px;
+}
+.header .energy-bills .get-quote{
+    font-size: 18px;
+    padding: 8px 20px 8px 20px;
+}
+.header .energy-bills .find-more{
+    font-size: 18px;
+    padding: 8px 14px 8px 14px;
+}
+.header .energy-bills img{
+    width: 400px;
+}
+
+
+
+
+
+/* ///////////////// Offical Partners section   ///////////////// */
+.op .op-container h2{
+    margin-top: 0;
+    font-size: 35px;
+    color: #550091;
+  }
+  .op .op-container p{
+    margin-top: 10px;
+    font-size: 18px;
+  }
+  .op .op-container  img{
+    margin-top: -40px;
+  }
+  .op .op-container .get-quote{
+    background-color: #550091;
+    font-size: 18px;
+    margin-top: -50px;
+    padding: 10px 25px 10px 25px;
+  }
+
+
+
+
+
+
+   /* ////////////////// Home Service section   ///////////////// */
+.home-service .home-service-container .bg-img h2{
+    font-size: 35px;
+    top: 25%;
+    left: 12%;
+ }
+ .home-service .home-service-container .bg-img .p-one{
+    font-size: 18px;
+    top: 44%;
+    left: 12%;
+ }
+ .home-service .home-service-container .bg-img .d-shape{
+    width: 300px;
+ }
+ .home-service .home-service-container .float-start .home-service{
+    width: 500px !important;
+ }
+ .home-service .home-service-container .bg-img .p-two{
+    font-size: 18px;
+    top: 56%;
+    left: 12%;
+ }
+
+
+
+
+
+
+
+ 
+ /* ////////////////// Mind Promise section   ///////////////// */
+ .mind-promise{
+    height: 450px;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+   }
+   .mind-promise .mind-promise-container{
+      text-align: center;
+      position: absolute;
+      top: 20%;
+      left: 50%;
+      transform: translate(-50%, -50%);
+    }
+    .mind-promise .mind-promise-container h2{
+      font-size: 35px;
+    }
+    .mind-promise .mind-promise-container p{
+      font-size: 21px;
+    }
+    .mind-promise .home-price{
+      margin-top: 180px;
+    }
+    .mind-promise .home-price p{
+      font-size: 19px;
+    }
+    .mind-promise .home-price .dollar{
+       width: 60px; 
+    }
+    .mind-promise .home-price .two-hundred{
+        width: 90px; 
+     }
+     .mind-promise .home-price .calender{
+        width: 45px; 
+     }
+
+
+
+
+/* ////////////////// Better Bundling section   ///////////////// */
+.better-bundling .better-bundling-container h2{
+    font-size: 35px;
+}
+.better-bundling .better-bundling-container p{
+    margin-top: 20px;
+    font-size: 18px;
+}
+.better-bundling .better-bundling-container .uw-img{
+    margin-top: -40px;
+}
+
+
+
+
+
+
+    /* /////////////////  Four Service Section ///////////// */
+    .four-service .fs-p h2{
+        font-size: 35px;
+    }
+    .four-service .fs-p p{
+        font-size: 18px;
+    }
+    .four-service .four-service-container .tpy{
+        font-size: 19px;
+    }
+    .four-service .four-service-container .number td{
+        font-size: 18px;
+    }
+    .four-service .four-service-container .number th{
+        font-size: 19px;
+    }
+    .four-service .four-service-container thead th{
+        font-size: 19px;
+    }
+    .four-service .four-service-container .saving-con .saving-btn{
+        padding: 5px 10px 5px 10px;
+        margin-top: -17px;
+        margin-right: -12px;
+    }
+    .four-service .four-service-container .saving-con .saving-btn h6{
+        font-size: 18px;
+    }
+    .four-service .four-service-container .see-bundles .row .rounded-pill{
+        background-color: #550091;
+        padding: 8px 15px 8px 15px;
+        font-size: 17px;
+    }
+
+
+
+
+
+
+
+      /* /////////////////  One Service Section ///////////// */
+      .single-service .fs-p h2{
+        font-size: 35px;
+    }
+    .single-service .fs-p p{
+        font-size: 18px;
+    }
+    .single-service .single-service-container .tpy{
+        font-size: 19px;
+    }
+    .single-service .single-service-container .number td{
+        font-size: 18px;
+    }
+    .single-service .single-service-container .number th{
+        font-size: 19px;
+    }
+    .single-service .single-service-container thead th{
+        font-size: 19px;
+    }
+    .single-service .single-service-container .saving-con .saving-btn{
+        padding: 5px 10px 5px 10px;
+        margin-top: -17px;
+        margin-right: -12px;
+    }
+    .single-service .four-service-container .saving-con .saving-btn h6{
+        font-size: 18px;
+    }
+    .single-service .single-service-container .see-bundles .row .rounded-pill{
+        background-color: #550091;
+        padding: 8px 15px 8px 15px;
+        font-size: 17px;
+    }
+
+
+
+
+
+     /* ////////////////// Awarded Energy section   /////////////////  */
+.awarded-energy .awarded-energy-container h2{
+    font-size: 34px;
+    color: #550091;
+} 
+.awarded-energy .awarded-energy-container p{
+    font-size: 17px;
+}
+
+
+
+
+
+/* ////////////////// More Services   ///////////////// */
+.more-services .more-services-container h2{
+    font-size:32px;
+}
+.more-services .more-services-container p{
+    font-size:20px;
+    margin-top: 20px;
+}
+.more-services .more-services-container img{
+    width: 100px;
+}
+
+
+
+
+
+/* //////////////////  Footer ///////////////// */
+.footer .footer-container h6{
+    font-size: 22px;
+    color: #f495f9;
+}
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+@media screen and (max-width:768px){
+    /* ////////////////// Mind Promise section   ///////////////// */
+ .mind-promise{
+    height: 450px;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+   }
+   .mind-promise .mind-promise-container{
+      text-align: center;
+      position: absolute;
+      top: 20%;
+      left: 50%;
+      transform: translate(-50%, -50%);
+    }
+    .mind-promise .mind-promise-container h2{
+      font-size: 30px;
+    }
+    .mind-promise .mind-promise-container p{
+      font-size: 19px;
+    }
+    .mind-promise .home-price{
+      margin-top: 120px;
+    }
+    .mind-promise .home-price p{
+      font-size: 18px;
+    }
+    .mind-promise .home-price .dollar{
+       width: 50px; 
+    }
+    .mind-promise .home-price .two-hundred{
+        width: 80px; 
+     }
+     .mind-promise .home-price .calender{
+        width: 36px; 
+     }
+
+
+
+
+
+
+    /* /////////////////  Four Service Section ///////////// */
+    .four-service .fs-p h2{
+        font-size: 32px;
+    }
+    .four-service .fs-p p{
+        font-size: 17px;
+    }
+    
+    .four-service .four-service-container .tpy{
+        font-size: 19px;
+    }
+    .four-service .four-service-container .number td{
+        font-size: 17px;
+    }
+    .four-service .four-service-container .number th{
+        font-size: 18px;
+    }
+
+    .four-service .four-service-container thead th i{
+        font-size: 16px;
+        padding: 10px 0 25px 0 !important;
+       }
+    .four-service .four-service-container thead th{
+        font-size: 18px;
+        padding: 0 10px 0 10px !important;
+    }
+    .four-service .four-service-container thead .th{
+        font-size: 18px;
+        padding: 0 10px 20px 10px !important;
+    }
+    .four-service .four-service-container .saving-con .saving-btn{
+        padding: 5px 10px 5px 10px;
+        margin-top: 2px;
+        margin-right: -12px;
+    }
+    .four-service .four-service-container .saving-con .saving-btn h6{
+        font-size: 17px;
+    }
+
+
+
+
+
+
+    /* /////////////////  Single Service Section ///////////// */
+    .single-service .fs-p h2{
+        font-size: 32px;
+    }
+    .single-service .fs-p p{
+        font-size: 17px;
+    }
+    .single-service .single-service-container .tpy{
+        font-size: 19px;
+    }
+    .single-service .single-service-container .number td{
+        font-size: 17px;
+    }
+    .single-service .single-service-container .number th{
+        font-size: 18px;
+    }
+    .single-service .single-service-container thead th i{
+        font-size: 16px;
+        padding: 10px 0 25px 0 !important;
+       }
+       .single-service .single-service-container thead th{
+        font-size: 18px;
+        padding: 0 10px 0 10px !important;
+    }
+    .single-service .single-service-container thead .th{
+        font-size: 18px;
+        padding: 0 10px 20px 10px !important;
+    }
+    .single-service .single-service-container .saving-con .saving-btn{
+        padding: 5px 10px 5px 10px;
+        margin-bottom: 22px;
+        margin-right: -12px;
+    }
+    .single-service .single-service-container .saving-con .saving-btn h6{
+        font-size: 17px;
+    }
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+@media screen and (max-width:600px){
+        /* /////////////////  Header Section ///////////// */
+        .switched .text{
+            position: absolute;
+            top:-15%;
+            left: 15%;
+          }
+.header .header-container .navbar .collapse .navbar-nav .nav-item .nav-link{
+    color:black;
+    font-size: 16px;
+    margin-right: 0;
+}
+.header .header-container img{
+    width: 190px;
+    margin-left: -20px;
+}
+.header .energy-bills h1{
+    margin-top: 1px;
+    font-size: 27px;
+}
+.header .energy-bills p{
+    margin-top: 30px;
+    margin-bottom: 40px;
+    font-size: 15px;
+}
+.header .energy-bills .get-quote{
+    font-size: 15px;
+    padding: 6px 14px 6px 14px;
+}
+.header .energy-bills .find-more{
+    font-size: 15px;
+    padding: 6px 11px 6px 11px;
+}
+.header .energy-bills img{
+    width: 300px;
+}
+.header .energy-bills .text-end{
+    text-align: center !important;
+}
+.op .op-container h2{
+    margin-top: 0;
+    font-size: 35px;
+    color: #550091;
+  }
+  .op .op-container p{
+    margin-top: 10px;
+    font-size: 18px;
+  }
+  .op .op-container  img{
+    margin-top: -40px;
+  }
+  .op .op-container .get-quote{
+    background-color: #550091;
+    font-size: 18px;
+    margin-top: -50px;
+    padding: 10px 25px 10px 25px;
+  }
+
+
+
+
+
+
+
+    /* ////////////////// Mind Promise section   ///////////////// */
+ .mind-promise{
+    height: 450px;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+   }
+   .mind-promise .mind-promise-container{
+      text-align: center;
+      position: absolute;
+      top: 20%;
+      left: 50%;
+      transform: translate(-50%, -50%);
+    }
+    .mind-promise .mind-promise-container h2{
+      font-size: 25px;
+    }
+    .mind-promise .mind-promise-container p{
+      font-size: 17px;
+    }
+    .mind-promise .home-price{
+      margin-top: 120px;
+    }
+    .mind-promise .home-price p{
+      font-size: 15px;
+    }
+    .mind-promise .home-price .dollar{
+       width: 40px; 
+    }
+    .mind-promise .home-price .two-hundred{
+        width: 55px; 
+     }
+     .mind-promise .home-price .calender{
+        width: 27px; 
+     }
+
+
+
+
+
+
+/* ///////////////// Offical Partners section   ///////////////// */
+.op .op-container h2{
+    margin-top: 0;
+    font-size: 25px;
+    color: #550091;
+  }
+  .op .op-container p{
+    margin-top: 10px;
+    font-size: 15px;
+  }
+  .op .op-container .float-end img{
+    margin-top: -40px;
+    text-align: center;
+    width:170px;
+  }
+  .op .op-container .imgg img{
+    margin: 0 0 20px 0;
+  }
+  .op .op-container .get-quote{
+    background-color: #550091;
+    font-size: 15px;
+    text-align: center;
+    margin-top: 10px;
+    padding: 7px 15px 7px 15px;
+  }
+  .op .op-container .float-end{
+        float: inline-end !important;
+        text-align: center !important;
+  }
+  .op .op-container .img{
+    text-align: center !important;
+}
+
+
+
+
+
+
+
+   /* ////////////////// Home Service section   ///////////////// */
+   .home-service .home-service-container .bg-img h2{
+    font-size: 25px;
+    top: 20%;
+    left: 4%;
+ }
+ .home-service .home-service-container{
+    margin-bottom: 60px;
+ }
+ .home-service .home-service-container .bg-img .p-one{
+    font-size: 15px;
+    top: 40%;
+    left: 4%;
+ }
+ .home-service .home-service-container .bg-img .d-shape{
+    width: 200px;
+ }
+ .home-service .home-service-container .float-start .home-service{
+    width: 300px !important;
+ }
+ .home-service .home-service-container .float-start {
+    text-align: center;
+    margin-top: -10px !important;
+ }
+ .home-service .home-service-container .bg-img .p-two{
+    font-size: 15px;
+    top: 56%;
+    left: 4%;
+ }
+
+
+
+
+
+
+
+/* ////////////////// Better Bundling section   ///////////////// */
+.better-bundling .better-bundling-container h2{
+    font-size: 25px;
+}
+.better-bundling .better-bundling-container p{
+    margin-top: 20px;
+    font-size: 15px;
+}
+.better-bundling .better-bundling-container .uw-img{
+    margin-top: -30px;
+}
+.better-bundling .better-bundling-container .uw-img img{
+    width: 200px;
+}
+.better-bundling .better-bundling-container .img img{
+    width: 300px;
+}
+.better-bundling .better-bundling-container .img{
+    text-align: center;
+}
+
+
+
+
+
+
+
+
+
+    /* /////////////////  Four Service Section ///////////// */
+    .four-service .fs-p h2{
+        font-size: 25px;
+    }
+    .four-service .fs-p p{
+        font-size: 15px;
+        margin-top: -20px;
+    }
+    .four-service .four-service-container .tpy{
+        font-size: 17px;
+    }
+    .four-service .four-service-container .number td{
+        font-size: 15px;
+    }
+    .four-service .four-service-container .number th{
+        font-size: 17px;
+    }
+    .four-service .four-service-container thead th i{
+        font-size: 15px;
+        padding: 10px 0 25px 0 !important;
+       }
+    .four-service .four-service-container thead th{
+        font-size: 17px;
+        padding: 0 10px 0 10px !important;
+    }
+    .four-service .four-service-container thead .th{
+        font-size: 17px;
+        padding: 0 10px 20px 10px !important;
+    }
+    .four-service .four-service-container .saving-con .saving-btn{
+        padding: 5px 5px 0 5px;
+        margin-top: 2px;
+        margin-right: -12px;
+    }
+    .four-service .four-service-container .saving-con .saving-btn h6{
+        font-size: 15px;
+    }
+    .four-service .four-service-container .see-bundles .row .rounded-pill{
+        background-color: #550091;
+        padding: 7px 9px 7px 9px;
+        font-size: 14px;
+    }
+
+
+
+
+
+
+  /* /////////////////  Single Service Section ///////////// */
+  .single-service .fs-p h2{
+    font-size: 25px;
+}
+.single-service .fs-p p{
+    font-size: 15px;
+    margin-top: -20px;
+}
+.single-service .single-service-container .tpy{
+    font-size: 17px;
+}
+.single-service .single-service-container .number td{
+    font-size: 15px;
+}
+.single-service .single-service-container .number th{
+    font-size: 17px;
+}
+.single-service .single-service-container thead th i{
+    font-size: 15px;
+    padding: 10px 0 25px 0 !important;
+   }
+.single-service .single-service-container thead .th{
+    font-size: 17px;
+    padding: 20px 10px 20px 10px !important;
+}
+.single-service .single-service-container .saving-con .saving-btn{
+    padding: 5px 5px 0 5px;
+    margin-right: -12px;
+}
+.single-service .single-service-container .saving-con .saving-btn h6{
+    font-size: 15px;
+}
+.single-service .single-service-container .see-bundles .row .rounded-pill{
+    background-color: #550091;
+    padding: 7px 9px 7px 9px;
+    font-size: 14px;
+}
+
+
+
+
+
+    /* ////////////////// Awarded Energy section   /////////////////  */
+.awarded-energy .awarded-energy-container h2{
+    font-size: 25px;
+    color: #550091;
+} 
+.awarded-energy .awarded-energy-container p{
+    font-size: 15px;
+    margin-top: 0 !important;
+}
+
+
+
+
+/* ////////////////// More Services   ///////////////// */
+.more-services .more-services-container h2{
+    font-size:25px;
+}
+.more-services .more-services-container p{
+    font-size:15px;
+    margin-top: 10px;
+}
+.more-services .more-services-container img{
+    width: 60px;
+}
+.more-services .more-services-container h2{
+    margin-bottom: -12px;
+}
+
+
+
+
+
+    /* //////////////////  Footer ///////////////// */
+    .footer .footer-container h6{
+        font-size: 16px;
+        color: #f495f9;
+    }
+    .footer .footer-container img{
+        width: 200px;
+    }
+
+
+
+
+
+    /* //////////////////  Get quote button ///////////////// */
+.get-quote-button .get-quotee{
+    margin-top: 10px;
+    background-color: #550091 !important;
+    font-size: 15px !important;
+    padding: 5px 20px 5px 19px !important;
+  }
+    }
