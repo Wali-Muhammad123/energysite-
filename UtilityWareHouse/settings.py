@@ -23,7 +23,7 @@ BASE_DIR = Path(__file__).resolve().parent.parent
 # See https://docs.djangoproject.com/en/4.0/howto/deployment/checklist/
 
 # SECURITY WARNING: keep the secret key used in production secret!
-SECRET_KEY = config("SECRET_KEY")
+SECRET_KEY = "0keqrh%^1i1fuc0##l@h&y6t!f383lj4tw6zcknpwgde4e7ub2"
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
@@ -102,13 +102,13 @@ AUTH_PASSWORD_VALIDATORS = [
         'NAME': 'django.contrib.auth.password_validation.NumericPasswordValidator',
     },
 ]
-EMAIL_BACKEND = 'django.core.mail.backends.smtp.EmailBackend'
-EMAIL_HOST = 'smtp.ionos.co.uk'
-EMAIL_USE_TLS =True
-DEFAULT_FROM_EMAIL = config("DEFAULT_FROM_EMAIL")
-EMAIL_PORT = 587
-EMAIL_HOST_USER = config("EMAIL_HOST_USER")
-EMAIL_HOST_PASSWORD = config("EMAIL_HOST_PASSWORD")
+#EMAIL_BACKEND = 'django.core.mail.backends.smtp.EmailBackend'
+#EMAIL_HOST = 'smtp.ionos.co.uk'
+##EMAIL_USE_TLS =True
+##DEFAULT_FROM_EMAIL = config("DEFAULT_FROM_EMAIL")
+#EMAIL_PORT = 587
+#EMAIL_HOST_USER = config("EMAIL_HOST_USER")
+#EMAIL_HOST_PASSWORD = config("EMAIL_HOST_PASSWORD")
 
 # Internationalization
 # https://docs.djangoproject.com/en/4.0/topics/i18n/
